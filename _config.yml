@@ -1,0 +1,22 @@
+title: Biruk Getachew
+description: Notes and experiments in reinforcement learning, machine learning, and software.
+url: "https://biruk50.github.io"
+baseurl: ""
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+author:
+  name: Biruk Getachew
+
+github_username: biruk50
+show_excerpts: true
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
