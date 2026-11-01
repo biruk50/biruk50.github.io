@@ -81,4 +81,4 @@ The central question is not whether state differences should always be included,
 
 _To find the full code/results click_ [_here_](https://github.com/biruk50/RL/tree/main/CHANGES_AS_INPUT)_._
 
-_If you have any additional insights or corrections, please share them in the comments. Thank you for reading!_
+_Thank you for reading!_
