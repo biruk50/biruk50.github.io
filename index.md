@@ -1,16 +1,26 @@
 ---
-layout: home
+layout: page
 title: Home
 ---
 
-# Ideas, experiments, and lessons learned
+# Biruk's blog
 
-I'm Biruk Getachew. This is my space for writing about reinforcement learning, machine learning, and the ideas I explore along the way.
+I write about reinforcement learning, machine learning, and the experiments I'm exploring along the way.
 
-## Featured article
+[Read all posts]({{ '/posts/' | relative_url }})
 
-[Making Reinforcement Learning Explicitly Learn from State Changes]({{ '/blog/making-reinforcement-learning-explicitly-learn-from-state-changes/' | relative_url }})
+## Latest posts
 
-An experiment on giving PPO agents both their current observations and information about how those observations change over time.
+<ul class="post-list">
+  {% for post in site.posts limit:5 %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
-The articles below collect my latest writing and experiments. You can also find the [code and results on GitHub](https://github.com/biruk50/RL).
+You can also find the [code and results from my experiments on GitHub](https://github.com/biruk50/RL).

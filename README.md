@@ -1,5 +1,4 @@
-# Biruk Getachew's website
+# Biruk's GitHub Pages blog
 
-Personal blog published with GitHub Pages and Jekyll.
+This repository contains a simple Jekyll site for my blog.
 
-GitHub Pages builds the site from `index.md` and the posts in `_posts/`. The site's title, description, theme, and URL settings are configured in `_config.yml`.

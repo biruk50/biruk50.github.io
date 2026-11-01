@@ -12,7 +12,10 @@ author:
 
 github_username: biruk50
 show_excerpts: true
-permalink: /blog/:title/
+permalink: /posts/:title/
+header_pages:
+  - index.md
+  - posts/index.html
 
 defaults:
   - scope:
